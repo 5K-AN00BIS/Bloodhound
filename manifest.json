@@ -1,0 +1,19 @@
+{
+    "background": {
+        "page": "background.html"
+    },
+    "browser_action": {
+        "default_icon": "res/icon-48.png",
+        "default_title": "Bloodhound"
+    },
+    "description": "Use the phab number to locate support material.",
+    "icons": {
+        "16": "res/icon-16.png",
+        "48": "res/icon-48.png"
+    },
+    "manifest_version": 2,
+    "name": "Bloodhound",
+    "permissions": [ "https://*.REDACTED.com/", "https://www.google-analytics.com/", "storage", "tabs", "contextMenus" ],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "1.1.1"
+}
